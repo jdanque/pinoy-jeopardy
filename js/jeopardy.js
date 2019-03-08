@@ -43,7 +43,7 @@ function initCategories(minCount, categoryData) {
 function initTable() {
   console.log("Initializing table..");
   loadJSON(
-    "https://jdanque.github.io/p/pinoy-jeopardy/js/data.json",
+    "https://jdanque.github.io/pinoy-jeopardy/js/data.json",
     function(data) {
       var categories = initCategories(5, data.categories);
       let $tableHeadRow = $(".jeopardy-table").find("thead>tr");
